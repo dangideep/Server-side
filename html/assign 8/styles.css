@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif; /* Change to your preferred professional font */
+    background-color: #e9e9e9; /* Greyish background color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #555; /* Change to grey color you prefer */
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999; /* Ensure header is on top of other content */
+    text-align: center; /* Center align the content inside header */
+}
+
+.tabs ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.tabs li {
+    display: inline;
+    margin-right: 10px; /* Adjust spacing between tabs */
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white; /* Change to your preferred color */
+    padding: 8px 16px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #555; /* Change to grey color you prefer */
+}
+
+.tabs a:hover {
+    background-color: #777; /* Darker grey on hover */
+}
+
+.content {
+    margin-top: 100px; /* Adjust margin to push content below header */
+}
+
+/* Center align all h1 headings */
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}

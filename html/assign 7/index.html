@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS for table styling */
+        table {
+            width: 100%;
+        }
+
+        td, th {
+            padding: 8px;
+            text-align: left;
+        }
+
+        .title-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .title {
+            color: tomato;
+            margin-right: 10px; /* Adjust as needed */
+        }
+
+        .image {
+            width: 100px; /* Adjust the width as needed */
+            height: 100px; /* Adjust the height as needed */
+            margin-right: 20px; 
+        }
+    </style>
+</head>
+<body >
+    <div>
+      <div class="title-container">
+          <img class="image" src="spidey.jfif" alt="something something">
+          <h1 class="title">Employee Registration Form</h1>
+      </div>
+      <form>
+        <table>
+          <tbody>
+            <tr>
+              <td>Title:</td>
+              <td>
+                <label><input type="radio" name="title" class="mr-1" /> Mr.</label>
+                <label><input type="radio" name="title" class="mr-1" /> Mrs.</label>
+                <label><input type="radio" name="title" class="mr-1" /> Ms.</label>
+              </td>
+            </tr>
+            <tr>
+              <td>First Name</td>
+              <td><input type="text" placeholder="First Name"  /></td>
+            </tr>
+            <tr>
+              <td>Last Name</td>
+              <td><input type="text" placeholder="Last Name"  /></td>
+            </tr>
+            <tr>
+              <td>Mail Address1</td>
+              <td><input type="text" placeholder="Mail Address1"  /></td>
+            </tr>
+            <tr>
+              <td>Mail Address2</td>
+              <td><input type="text" placeholder="Mail Address2"  /></td>
+            </tr>
+            <tr>
+              <td>City</td>
+              <td><input type="text" placeholder="City"  /></td>
+            </tr>
+            <tr>
+              <td>State</td>
+              <td>
+                <select >
+                  <option>Gujarat</option>
+                  <option>Madhya Pradesh</option>
+                  <option>Delhi</option>
+                  <option>Maharashtra</option>
+                  <option>Haryana</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Zip</td>
+              <td><input type="text" placeholder="Zip"  /></td>
+            </tr>
+            <tr>
+              <td>Upload Photo</td>
+              <td><input type="file"  /></td>
+            </tr>
+            <tr>
+              <td>E-Mail</td>
+              <td><input type="email" placeholder="E-Mail"  /></td>
+            </tr>
+            <tr>
+              <td>Mobile</td>
+              <td><input type="tel" placeholder="+91"  /></td>
+            </tr>
+            <tr>
+              <td>Languages known</td>
+              <td>
+                <label><input type="checkbox" class="mr-1" /> Gujarati</label> <br>
+                <label><input type="checkbox" class="mr-1" /> Hindi</label> <br>
+                <label><input type="checkbox" class="mr-1" /> English</label> <br>
+                <label><input type="checkbox" class="mr-1" /> Marathi</label> <br>
+              </td>
+            </tr>
+            <tr>
+              <td>Additional Information</td>
+              <td><textarea  placeholder="Optional"></textarea></td>
+            </tr>
+            <tr><td></td>
+              <td colspan="2">
+                <button type="submit" class="button">Submit</button>
+                <button type="reset" class="button">Reset</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+</body>
+</html>

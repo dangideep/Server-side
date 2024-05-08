@@ -1,0 +1,61 @@
+
+/* CSS code for table styling */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th,
+.td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+.head{
+    text-align: center;
+}
+.attributed{
+    color: blue;
+    font-size:2em;
+    font-weight: bold;
+
+}
+
+.th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.text-lg {
+    font-size: larger;
+}
+
+.text-sm {
+    font-size: smaller;
+}
+
+.align-baseline {
+    vertical-align: baseline;
+}
+
+.title{
+    text-align: center;
+    color: tomato;
+}
